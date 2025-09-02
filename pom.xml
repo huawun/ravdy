@@ -42,10 +42,12 @@
       </plugin>
                     <plugin>
                    <groupId>org.apache.maven.plugins</groupId>
-                   <artifactId>maven-war-plugin</artifactId>
-                   <version>3.3.2</version>
+                   <artifactId>maven-compiler-plugin/artifactId>
+                   <version>3.11.0</version>
                    <configuration>
-                       <failOnMissingWebXml>false</failOnMissingWebXml>
+                       <source>8</source>
+                       <tartget>8</target>
+                       <release>8</release>
                    </configuration>
               </plugin>
       <plugin>
